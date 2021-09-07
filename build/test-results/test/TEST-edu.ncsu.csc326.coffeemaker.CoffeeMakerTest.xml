@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" tests="17" skipped="0" failures="5" errors="0" timestamp="2021-09-07T08:50:09" hostname="Panitans-MacBook-Pro.local" time="0.005">
+<testsuite name="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" tests="17" skipped="0" failures="5" errors="0" timestamp="2021-09-07T11:11:01" hostname="Panitans-MacBook-Pro.local" time="0.009">
   <properties/>
   <testcase name="testDeleteRecipeNotAddedRecipe" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.002"/>
   <testcase name="testNotEnoughInventory" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.0"/>
   <testcase name="testAddDuplicateRecipe" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.0"/>
   <testcase name="testCheckInventory" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.0"/>
-  <testcase name="testAddInventory" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.0">
+  <testcase name="testAddInventory" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.002">
     <failure message="edu.ncsu.csc326.coffeemaker.exceptions.InventoryException: Units of sugar must be a positive integer" type="edu.ncsu.csc326.coffeemaker.exceptions.InventoryException">edu.ncsu.csc326.coffeemaker.exceptions.InventoryException: Units of sugar must be a positive integer
 	at edu.ncsu.csc326.coffeemaker.Inventory.addSugar(Inventory.java:198)
 	at edu.ncsu.csc326.coffeemaker.CoffeeMaker.addInventory(CoffeeMaker.java:80)
@@ -61,7 +61,7 @@
 </failure>
   </testcase>
   <testcase name="testMakeCoffeeWithNullRecipe" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.0"/>
-  <testcase name="testMakeCoffeeWithOutOfBoundIndexRecipe" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.001">
+  <testcase name="testMakeCoffeeWithOutOfBoundIndexRecipe" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.0">
     <failure message="java.lang.ArrayIndexOutOfBoundsException: 10" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 10
 	at edu.ncsu.csc326.coffeemaker.CoffeeMaker.makeCoffee(CoffeeMaker.java:102)
 	at edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.testMakeCoffeeWithOutOfBoundIndexRecipe(CoffeeMakerTest.java:268)
@@ -174,7 +174,7 @@
 </failure>
   </testcase>
   <testcase name="testAddInventoryException" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.0"/>
-  <testcase name="testMakeCoffeeWithNegativeIndexRecipe" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.001">
+  <testcase name="testMakeCoffeeWithNegativeIndexRecipe" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.0">
     <failure message="java.lang.ArrayIndexOutOfBoundsException: -1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: -1
 	at edu.ncsu.csc326.coffeemaker.CoffeeMaker.makeCoffee(CoffeeMaker.java:102)
 	at edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.testMakeCoffeeWithNegativeIndexRecipe(CoffeeMakerTest.java:257)
