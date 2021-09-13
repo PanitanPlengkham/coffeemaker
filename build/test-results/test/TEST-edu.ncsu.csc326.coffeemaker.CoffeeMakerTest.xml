@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-13T13:18:05" hostname="Panitans-MacBook-Pro.local" time="0.372">
-  <properties/>
-  <testcase name="testNumberOfTimeGetMethodCalled" classname="edu.ncsu.csc326.coffeemaker.CoffeeMakerTest" time="0.372"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
